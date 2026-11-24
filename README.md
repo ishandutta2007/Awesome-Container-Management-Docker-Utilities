@@ -47,65 +47,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Docker Hub & Docker Scout](https://docker.com)**  
-
-  Official cloud container image registry, automated build hub, and supply-chain vulnerability analysis service for public and private OCI repositories.
-
-
-
-- **[AWS ECS & Amazon ECR](https://amazon.com)**  
-
-  Managed container orchestration service and private OCI registry deeply integrated with AWS Fargate serverless compute, IAM, and VPC networking.
-
-
-
-- **[Google Artifact Registry & Cloud Run](https://google.com)**  
-
-  Managed universal container and package registry paired with Google's serverless scale-to-zero container execution runtime.
-
-
-
-- **[Azure Container Apps & Azure Container Registry (ACR)](https://microsoft.com)**  
-
-  Managed serverless container platform and geo-replicated OCI registry powered by Kubernetes, KEDA autoscaling, and Dapr.
-
-
-
-- **[Red Hat OpenShift (ROSA / ARO / Dedicated)](https://redhat.com)**  
-
-  Enterprise hybrid-cloud container and Kubernetes application platform featuring built-in CI/CD pipelines, developer consoles, and Quay container registry integration.
-
-
-
-- **[Mirantis Container Cloud & Mirantis Kubernetes Engine](https://mirantis.com)**  
-
-  Enterprise multi-cloud container management platform supporting Docker Swarm and Kubernetes clusters across public clouds and bare-metal infrastructure.
-
-
-
-- **[VMware Tanzu Mission Control (Broadcom)](https://vmware.com)**  
-
-  Centralized cloud management plane for governing, securing, and monitoring multi-cluster Kubernetes and container workloads across hybrid clouds.
-
-
-
-- **[Scaleway Serverless Containers & Container Registry](https://scaleway.com)**  
-
-  European sovereign cloud container registry and scale-to-zero OCI runtime offering GDPR-compliant EU hosting and straightforward Terraform/CLI deployments.
-
-
-
-- **[Portainer Business Edition (BE)](https://portainer.io)**  
-
-  Commercial enterprise tier of Portainer adding RBAC governance, registry management, GitOps observability, and edge-agent fleet orchestration.
-
-
-
-- **[SUSE Rancher Prime](https://suse.com)**  
-
-  Enterprise multi-cluster Kubernetes and container management platform offering hardened distributions, lifecycle automation, and unified security policies.
+| Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Container Apps & Azure Container Registry (ACR)](https://microsoft.com)** | **~$3.1 Trillion** market cap (Microsoft) | ACA: ~$0.0864/vCPU-hour & ~$0.0108/GiB-hour (active); ACR Basic: ~$0.167/day ($5/month) | ACA: 180,000 vCPU-s, 360,000 GiB-s, 2M requests/month free; ACR: 30-day trial ($200 credits), no perpetual free tier | Managed serverless container platform and geo-replicated OCI registry powered by Kubernetes, KEDA autoscaling, and Dapr. |
+| **[Google Artifact Registry & Cloud Run](https://google.com)** | **~$2.1 Trillion** market cap (Alphabet) | Cloud Run: ~$0.000024/vCPU-s ($0.0864/vCPU-h) + $0.0000025/GiB-s; Artifact Registry: $0.10/GB-month | Cloud Run: 2M requests, 180,000 vCPU-s, 360,000 GiB-s, 1 GB egress/month; Artifact Registry: 0.5 GB storage/month free | Managed universal container and package registry paired with Google's serverless scale-to-zero container execution runtime. |
+| **[AWS ECS & Amazon ECR](https://amazon.com)** | **~$2.0 Trillion** market cap (Amazon) | ECS Fargate: $0.04048/vCPU-hour & $0.004445/GB-hour; ECR: $0.10/GB-month private storage | ECR Public: 50 GB storage/month & 500 GB egress/month free; ECR Private: 500 MB/month free for 12 months; ECS control plane free on EC2/Fargate | Managed container orchestration service and private OCI registry deeply integrated with AWS Fargate serverless compute, IAM, and VPC networking. |
+| **[VMware Tanzu Mission Control (Broadcom)](https://vmware.com)** | **~$780 Billion** market cap (Broadcom) | ~$135 - $350 per core/year (via VMware vSphere Foundation / Cloud Foundation bundles) | Starter Service tier is free forever for up to 5 attached/managed Kubernetes clusters (or 60-day full-feature trial) | Centralized cloud management plane for governing, securing, and monitoring multi-cluster Kubernetes and container workloads across hybrid clouds. |
+| **[Red Hat OpenShift (ROSA / ARO / Dedicated)](https://redhat.com)** | **~$68 Billion** (IBM subsidiary; IBM market cap ~$200B) | ~$0.171/hour for every 4 worker vCPUs (~$123/month) on-demand plus underlying infrastructure | 60-day evaluation trial with full cluster features (or 30-day self-managed OpenShift trial) | Enterprise hybrid-cloud container and Kubernetes application platform featuring built-in CI/CD pipelines, developer consoles, and Quay container registry integration. |
+| **[SUSE Rancher Prime](https://suse.com)** | **~$3 Billion** valuation (~$800M annual revenue; EQT-owned) | AWS Marketplace: $168/month for baseline 24 managed vCPUs ($7/additional vCPU/month) | Upstream Rancher Community Edition is 100% free and open-source; Rancher Prime offers a 30-day enterprise evaluation trial | Enterprise multi-cluster Kubernetes and container management platform offering hardened distributions, lifecycle automation, and unified security policies. |
+| **[Docker Hub & Docker Scout](https://docker.com)** | **~$2.1 Billion** valuation (~$200M ARR) | Docker Pro: $9/user/month (billed annually) or $11/user/month (billed monthly) | Docker Personal: 1 private repo, unlimited public repos, 200 pulls/6 hours, 3 Docker Scout repositories free | Official cloud container image registry, automated build hub, and supply-chain vulnerability analysis service for public and private OCI repositories. |
+| **[Mirantis Container Cloud & Mirantis Kubernetes Engine](https://mirantis.com)** | **~$625 Million** acquisition valuation (~$120M - $150M annual revenue) | Mirantis Container Runtime: ~$1,125/node/year (~$93.75/month); k0s: ~$900/node/year | Free evaluation cluster trial up to 15 nodes for 30 days | Enterprise multi-cloud container management platform supporting Docker Swarm and Kubernetes clusters across public clouds and bare-metal infrastructure. |
+| **[Scaleway Serverless Containers & Container Registry](https://scaleway.com)** | **~€150 Million (~$160M)** annual revenue (Iliad subsidiary) | €0.00001 per vCPU-s (€1.00 per 100,000 vCPU-s) & €0.000002 per GB-s (€0.20 per 100,000 GB-s) | 200,000 vCPU-seconds and 400,000 GB-seconds per month free; Container Registry: 10 GB free storage/month | European sovereign cloud container registry and scale-to-zero OCI runtime offering GDPR-compliant EU hosting and straightforward Terraform/CLI deployments. |
+| **[Portainer Business Edition (BE)](https://portainer.io)** | **~$25M - $50M** valuation (~$4.7M ARR) | Starter: $1,045/year (~$105/month) for 5 nodes (up to 16 vCPUs/node) | Free forever for up to 3 nodes with full Portainer Business features (Community Edition is completely free) | Commercial enterprise tier of Portainer adding RBAC governance, registry management, GitOps observability, and edge-agent fleet orchestration. |
 
 
 
