@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&color=green" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -71,78 +71,78 @@ Below are the industry-leading commercial and cloud-managed container platforms,
 
 ## 🛠️ Open-Source GitHub Projects
 
-The following active open-source utilities and management engines are sorted in descending order by **GitHub Stars count** (each star badge links directly to that repository's stargazers page):
+The following active open-source utilities and management engines are sorted in descending order by **GitHub_Stars_Count** (each Stars_Badge links directly to that repository's stargazers page):
 
-1. **[Coolify](https://coolify.io)** (`coollabsio/coolify`) [![GitHub stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)  
+1. **[Coolify](https://coolify.io)** (`coollabsio/coolify`) [![GitHub_Stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)  
    An open-source, self-hosted Heroku / Netlify / Vercel alternative. Manages Docker containers, applications, databases, and Git push-to-deploy workflows on any Linux server.
 
-2. **[Traefik](https://traefik.io)** (`traefik/traefik`) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+2. **[Traefik](https://traefik.io)** (`traefik/traefik`) [![GitHub_Stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
    The leading cloud-native HTTP reverse proxy and load balancer that automatically discovers Docker container labels and provisions Let's Encrypt SSL/TLS certificates on the fly.
 
-3. **[Dive](https://github.com/wagoodman/dive)** (`wagoodman/dive`) [![GitHub stars](https://img.shields.io/github/stars/wagoodman/dive?style=social&color=white)](https://github.com/wagoodman/dive/stargazers)  
+3. **[Dive](https://github.com/wagoodman/dive)** (`wagoodman/dive`) [![GitHub_Stars](https://img.shields.io/github/stars/wagoodman/dive?style=social&color=white)](https://github.com/wagoodman/dive/stargazers)  
    A powerful terminal utility for exploring Docker image layers, inspecting filesystem diffs per layer, and detecting wasted image space to optimize build artifacts.
 
-4. **[Lazydocker](https://github.com/jesseduffield/lazydocker)** (`jesseduffield/lazydocker`) [![GitHub stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social&color=white)](https://github.com/jesseduffield/lazydocker/stargazers)  
+4. **[Lazydocker](https://github.com/jesseduffield/lazydocker)** (`jesseduffield/lazydocker`) [![GitHub_Stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social&color=white)](https://github.com/jesseduffield/lazydocker/stargazers)  
    A blazing-fast, keyboard-driven terminal UI (TUI) written in Go for inspecting Docker containers, Docker Compose stacks, streaming logs, resource metrics, and volumes.
 
-5. **[Trivy](https://trivy.dev)** (`aquasecurity/trivy`) [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+5. **[Trivy](https://trivy.dev)** (`aquasecurity/trivy`) [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
    The comprehensive, versatile open-source security scanner for container images, filesystems, Git repositories, Kubernetes configurations, and software bill of materials (SBOM).
 
-6. **[Portainer Community Edition](https://portainer.io)** (`portainer/portainer`) [![GitHub stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
+6. **[Portainer Community Edition](https://portainer.io)** (`portainer/portainer`) [![GitHub_Stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
    The definitive open-source web-based management UI for Docker standalone engines, Docker Swarm clusters, Podman, and Kubernetes environments.
 
-7. **[Podman](https://podman.io)** (`containers/podman`) [![GitHub stars](https://img.shields.io/github/stars/containers/podman?style=social&color=white)](https://github.com/containers/podman/stargazers)  
+7. **[Podman](https://podman.io)** (`containers/podman`) [![GitHub_Stars](https://img.shields.io/github/stars/containers/podman?style=social&color=white)](https://github.com/containers/podman/stargazers)  
    A daemonless, rootless open-source container engine for developing, managing, and running OCI containers and pods with a 100% Docker-compatible CLI.
 
-8. **[Colima](https://github.com/abiosoft/colima)** (`abiosoft/colima`) [![GitHub stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers)  
+8. **[Colima](https://github.com/abiosoft/colima)** (`abiosoft/colima`) [![GitHub_Stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers)  
    Container runtimes on macOS (Apple Silicon & Intel) and Linux with minimal setup, providing Docker CLI compatibility, Containerd, and Kubernetes out of the box.
 
-9. **[Harbor](https://goharbor.io)** (`goharbor/harbor`) [![GitHub stars](https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white)](https://github.com/goharbor/harbor/stargazers)  
+9. **[Harbor](https://goharbor.io)** (`goharbor/harbor`) [![GitHub_Stars](https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white)](https://github.com/goharbor/harbor/stargazers)  
    An enterprise-class CNCF-graduated open-source container image registry that secures artifacts with policy-based role access, vulnerability scanning, and cryptographic signing.
 
-10. **[Beszel](https://beszel.dev)** (`henrygd/beszel`) [![GitHub stars](https://img.shields.io/github/stars/henrygd/beszel?style=social&color=white)](https://github.com/henrygd/beszel/stargazers)  
+10. **[Beszel](https://beszel.dev)** (`henrygd/beszel`) [![GitHub_Stars](https://img.shields.io/github/stars/henrygd/beszel?style=social&color=white)](https://github.com/henrygd/beszel/stargazers)  
     A lightweight, elegant server and Docker container monitoring hub with automatic alert thresholds, historical graphs, and low resource overhead.
 
-11. **[Dockge](https://dockge.kuma.pet)** (`louislam/dockge`) [![GitHub stars](https://img.shields.io/github/stars/louislam/dockge?style=social&color=white)](https://github.com/louislam/dockge/stargazers)  
+11. **[Dockge](https://dockge.kuma.pet)** (`louislam/dockge`) [![GitHub_Stars](https://img.shields.io/github/stars/louislam/dockge?style=social&color=white)](https://github.com/louislam/dockge/stargazers)  
     A fancy, reactive self-hosted Docker Compose stack manager created by the author of Uptime Kuma, featuring visual YAML editing, interactive web terminals, and live progress logs.
 
-12. **[Watchtower](https://containrrr.dev/watchtower/)** (`containrrr/watchtower`) [![GitHub stars](https://img.shields.io/github/stars/containrrr/watchtower?style=social&color=white)](https://github.com/containrrr/watchtower/stargazers)  
+12. **[Watchtower](https://containrrr.dev/watchtower/)** (`containrrr/watchtower`) [![GitHub_Stars](https://img.shields.io/github/stars/containrrr/watchtower?style=social&color=white)](https://github.com/containrrr/watchtower/stargazers)  
     An automated daemon that monitors running Docker containers, queries image registries for updated tags, gracefully restarts containers, and cleans up superseded images.
 
-13. **[Lima](https://github.com/lima-vm/lima)** (`lima-vm/lima`) [![GitHub stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers)  
+13. **[Lima](https://github.com/lima-vm/lima)** (`lima-vm/lima`) [![GitHub_Stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers)  
     Linux virtual machines on macOS with automatic file-sharing, port-forwarding, and containerd integration, functioning as the open-source engine powering Colima and Rancher Desktop.
 
-14. **[cAdvisor](https://github.com/google/cadvisor)** (`google/cadvisor`) [![GitHub stars](https://img.shields.io/github/stars/google/cadvisor?style=social&color=white)](https://github.com/google/cadvisor/stargazers)  
+14. **[cAdvisor](https://github.com/google/cadvisor)** (`google/cadvisor`) [![GitHub_Stars](https://img.shields.io/github/stars/google/cadvisor?style=social&color=white)](https://github.com/google/cadvisor/stargazers)  
     Google's open-source daemon that collects, aggregates, processes, and exports real-time resource usage and performance metrics for active containers.
 
-15. **[Dozzle](https://dozzle.dev)** (`amir20/dozzle`) [![GitHub stars](https://img.shields.io/github/stars/amir20/dozzle?style=social&color=white)](https://github.com/amir20/dozzle/stargazers)  
+15. **[Dozzle](https://dozzle.dev)** (`amir20/dozzle`) [![GitHub_Stars](https://img.shields.io/github/stars/amir20/dozzle?style=social&color=white)](https://github.com/amir20/dozzle/stargazers)  
     A real-time, lightweight web-based log viewer for Docker containers with multi-host clustering, regex search, memory analytics, and split-screen viewing.
 
-16. **[Komodo](https://komodo.ro)** (`moghtech/komodo`) [![GitHub stars](https://img.shields.io/github/stars/moghtech/komodo?style=social&color=white)](https://github.com/moghtech/komodo/stargazers)  
+16. **[Komodo](https://komodo.ro)** (`moghtech/komodo`) [![GitHub_Stars](https://img.shields.io/github/stars/moghtech/komodo?style=social&color=white)](https://github.com/moghtech/komodo/stargazers)  
     A high-performance build, deployment, and container orchestrator written in Rust for managing multi-server Docker environments, Git webhooks, and fleet monitoring.
 
-17. **[Skopeo](https://github.com/containers/skopeo)** (`containers/skopeo`) [![GitHub stars](https://img.shields.io/github/stars/containers/skopeo?style=social&color=white)](https://github.com/containers/skopeo/stargazers)  
+17. **[Skopeo](https://github.com/containers/skopeo)** (`containers/skopeo`) [![GitHub_Stars](https://img.shields.io/github/stars/containers/skopeo?style=social&color=white)](https://github.com/containers/skopeo/stargazers)  
     A command-line utility that performs operations on container images and image registries, allowing inspection, copying, and signing without needing root or local daemon pulls.
 
-18. **[CNCF Distribution](https://github.com/distribution/distribution)** (`distribution/distribution`) [![GitHub stars](https://img.shields.io/github/stars/distribution/distribution?style=social&color=white)](https://github.com/distribution/distribution/stargazers)  
+18. **[CNCF Distribution](https://github.com/distribution/distribution)** (`distribution/distribution`) [![GitHub_Stars](https://img.shields.io/github/stars/distribution/distribution?style=social&color=white)](https://github.com/distribution/distribution/stargazers)  
     The foundational open-source OCI and Docker registry implementation powering Docker Hub and self-hosted private container artifact distribution.
 
-19. **[Podman Desktop](https://podman-desktop.io)** (`podman-desktop/podman-desktop`) [![GitHub stars](https://img.shields.io/github/stars/podman-desktop/podman-desktop?style=social&color=white)](https://github.com/podman-desktop/podman-desktop/stargazers)  
+19. **[Podman Desktop](https://podman-desktop.io)** (`podman-desktop/podman-desktop`) [![GitHub_Stars](https://img.shields.io/github/stars/podman-desktop/podman-desktop?style=social&color=white)](https://github.com/podman-desktop/podman-desktop/stargazers)  
     A desktop GUI for macOS, Windows, and Linux to build, run, and manage containers, pods, Compose stacks, and local Kubernetes clusters without commercial licensing restrictions.
 
-20. **[Diun](https://crazymax.dev/diun/)** (`crazy-max/diun`) [![GitHub stars](https://img.shields.io/github/stars/crazy-max/diun?style=social&color=white)](https://github.com/crazy-max/diun/stargazers)  
+20. **[Diun](https://crazymax.dev/diun/)** (`crazy-max/diun`) [![GitHub_Stars](https://img.shields.io/github/stars/crazy-max/diun?style=social&color=white)](https://github.com/crazy-max/diun/stargazers)  
     *Docker Image Update Notifier* — a CLI tool that periodically analyzes image manifests in registries and sends rich notifications (Slack, Discord, Telegram, Webhooks) when new builds land.
 
-21. **[Caddy Docker Proxy](https://github.com/lucaslorentz/caddy-docker-proxy)** (`lucaslorentz/caddy-docker-proxy`) [![GitHub stars](https://img.shields.io/github/stars/lucaslorentz/caddy-docker-proxy?style=social&color=white)](https://github.com/lucaslorentz/caddy-docker-proxy/stargazers)  
+21. **[Caddy Docker Proxy](https://github.com/lucaslorentz/caddy-docker-proxy)** (`lucaslorentz/caddy-docker-proxy`) [![GitHub_Stars](https://img.shields.io/github/stars/lucaslorentz/caddy-docker-proxy?style=social&color=white)](https://github.com/lucaslorentz/caddy-docker-proxy/stargazers)  
     Automated reverse proxy plugin for Caddy that dynamically generates server configurations and provisions Let's Encrypt certificates directly from container labels.
 
-22. **[Zot](https://zotregistry.dev)** (`project-zot/zot`) [![GitHub stars](https://img.shields.io/github/stars/project-zot/zot?style=social&color=white)](https://github.com/project-zot/zot/stargazers)  
+22. **[Zot](https://zotregistry.dev)** (`project-zot/zot`) [![GitHub_Stars](https://img.shields.io/github/stars/project-zot/zot?style=social&color=white)](https://github.com/project-zot/zot/stargazers)  
     A production-ready, vendor-neutral OCI image registry specification conformant engine written in Go with embedded CVE scanning, image deduplication, and zero external DB dependencies.
 
-23. **[Muelle](https://github.com/crafter-station/muelle)** (`crafter-station/muelle`) [![GitHub stars](https://img.shields.io/github/stars/crafter-station/muelle?style=social&color=white)](https://github.com/crafter-station/muelle/stargazers)  
+23. **[Muelle](https://github.com/crafter-station/muelle)** (`crafter-station/muelle`) [![GitHub_Stars](https://img.shields.io/github/stars/crafter-station/muelle?style=social&color=white)](https://github.com/crafter-station/muelle/stargazers)  
     A modern, streamlined Docker and container management utility engineered for developer efficiency, remote container inspection, and microservice workflows.
 
-24. **[Yacht](https://github.com/SelfhostedPro/Yacht)** (`SelfhostedPro/Yacht`) [![GitHub stars](https://img.shields.io/github/stars/SelfhostedPro/Yacht?style=social&color=white)](https://github.com/SelfhostedPro/Yacht/stargazers)  
+24. **[Yacht](https://github.com/SelfhostedPro/Yacht)** (`SelfhostedPro/Yacht`) [![GitHub_Stars](https://img.shields.io/github/stars/SelfhostedPro/Yacht?style=social&color=white)](https://github.com/SelfhostedPro/Yacht/stargazers)  
     A container management web interface built with Vue.js focusing on simplicity, one-click app templates, volume organization, and server management.
 
 ---
@@ -154,7 +154,7 @@ Contributions are warmly welcomed! Help expand this ecosystem directory:
 1. 🍴 Fork the repository.
 2. 🌿 Create a feature branch (`git checkout -b feature/add-new-tool`).
 3. 📝 Add your entry under the appropriate section in `README.md` (keep alphabetical or sorted order).
-4. 🔗 Include the project name, official URL, GitHub stars badge (`style=social&color=white`), and an objective 1–2 sentence description.
+4. 🔗 Include the project name, official URL, GitHub_Stars_Badge (`style=social&color=white`), and an objective 1–2 sentence description.
 5. 🚀 Submit a Pull Request with a concise explanation.
 
 ---
