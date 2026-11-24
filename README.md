@@ -1,51 +1,58 @@
-# Awesome-Container-Management-Docker-Utilities
-# Awesome-Container-Management-Docker-Utilities
+# Awesome Container Management & Docker Utilities 🐳 📦
 
-markdown
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Container Management & Docker Utilities Banner" width="100%" />
+</p>
 
-## Top Container Management & Docker Utilities Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Container-Management-Docker-Utilities/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Container-Management-Docker-Utilities?style=flat-square&color=green" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+## 🧭 Executive Summary & SEO Guide
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+**Awesome Container Management & Docker Utilities** is an authoritative, community-curated directory indexing the world's leading **SaaS / hosted cloud platforms** and **open-source GitHub utilities** for Docker, Podman, Kubernetes, and Open Container Initiative (OCI) workflows. 
 
-*Focused on Docker & OCI Container Management UIs, CLI/TUI Monitors, Container Registries, Auto-Updaters & Lightweight Runtimes*  
+Whether you are orchestrating enterprise production clusters across hybrid clouds, operating a high-availability homelab server, or optimizing local developer container builds, this list covers:
+* 🌐 **Web UIs & Dashboards:** Portainer, Dockge, Coolify, Yacht, Komodo
+* 💻 **Terminal User Interfaces (TUIs) & CLI Tools:** Lazydocker, Dive, Skopeo
+* 🛡️ **Container Security & CVE Scanners:** Trivy, Docker Scout
+* 🔄 **Automated Container Updaters & Notifications:** Watchtower, Diun
+* 📦 **Self-Hosted OCI Registries:** Harbor, CNCF Distribution, Zot
+* 🚀 **Lightweight Container Engines & Virtual Runtimes:** Podman, Colima, Lima
 
-**Last updated: November 2026**
+---
 
+## 📑 Table of Contents
+- [Sector Overview & Market Dynamics 📈](#-sector-overview--market-dynamics-)
+- [SaaS / Hosted Platforms ☁️](#-saas--hosted-platforms-)
+- [Open-Source GitHub Projects 🛠️](#-open-source-github-projects-)
+- [How to Contribute 🤝](#-how-to-contribute-)
+- [Support & Share 💖](#-support--share-)
+- [Star History 📊](#-star-history-)
+- [Disclaimer ⚠️](#-disclaimer-)
 
+---
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Container Management & Docker Utilities**. These tools build, store, inspect, orchestrate, monitor, update, and manage Docker and OCI containers across cloud container services, Kubernetes clusters, developer laptops, and self-hosted home/enterprise servers.
+## 📈 Sector Overview & Market Dynamics
 
+The global container management and orchestration market is valued at approximately **$8 billion to $10.7 billion in 2025–2026** and is accelerating at an extraordinary Compound Annual Growth Rate (CAGR) of **~31% to 34%**, projected to eclipse **$100+ billion** within the next decade. 
 
+The sector exhibits a **barbell market structure**:
+* **High Concentration at the Infrastructure Layer (Winner-Take-Most):** Hyperscalers (AWS ECS/EKS, Azure Container Apps/AKS, Google Cloud Run/GKE) and enterprise Kubernetes standards (Red Hat OpenShift, Broadcom Tanzu) dominate high-spend cloud workloads with massive platform lock-in.
+* **Moderate to High Fragmentation at the Developer & Tooling Layer:** Developer tools, monitoring agents, lightweight web GUIs, and homelab/edge management remain vibrant and highly fragmented, driven by open-source innovation, rootless runtimes (Podman), and indie self-hosted stacks (Coolify, Dockge, Lazydocker).
 
-**Examples** include Portainer, Docker Hub, Mirantis Container Cloud, Red Hat OpenShift, Rancher, VMware Tanzu Mission Control, Google Artifact Registry, AWS ECS, Azure Container Apps, Scaleway Containers, and crafter-station/muelle (the category leaders and popular runtimes). 
+---
 
+## ☁️ SaaS / Hosted Platforms
 
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for web & TUI Docker management (`Portainer CE`, `Dockge`, `Komodo`, `Lazydocker`, `crafter-station/muelle`), rootless container engines (`Podman`, `Colima`, `Lima`), self-hosted OCI registries (`Harbor`, `Distribution`, `Zot`), and automated container updaters & image analyzers (`Watchtower`, `Diun`, `Dive`) — ideal for DevOps engineers, sysadmins, homelab operators, and cloud-native developers.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Support & Share](#support--share)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+Below are the industry-leading commercial and cloud-managed container platforms, sorted by **Company Valuation / Revenue (descending)**:
 
 | Platform | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -60,150 +67,122 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Scaleway Serverless Containers & Container Registry](https://scaleway.com)** | **~€150 Million (~$160M)** annual revenue (Iliad subsidiary) | €0.00001 per vCPU-s (€1.00 per 100,000 vCPU-s) & €0.000002 per GB-s (€0.20 per 100,000 GB-s) | 200,000 vCPU-seconds and 400,000 GB-seconds per month free; Container Registry: 10 GB free storage/month | European sovereign cloud container registry and scale-to-zero OCI runtime offering GDPR-compliant EU hosting and straightforward Terraform/CLI deployments. |
 | **[Portainer Business Edition (BE)](https://portainer.io)** | **~$25M - $50M** valuation (~$4.7M ARR) | Starter: $1,045/year (~$105/month) for 5 nodes (up to 16 vCPUs/node) | Free forever for up to 3 nodes with full Portainer Business features (Community Edition is completely free) | Commercial enterprise tier of Portainer adding RBAC governance, registry management, GitOps observability, and edge-agent fleet orchestration. |
 
+---
 
+## 🛠️ Open-Source GitHub Projects
 
+The following active open-source utilities and management engines are sorted in descending order by **GitHub Stars count** (each star badge links directly to that repository's stargazers page):
 
+1. **[Coolify](https://coolify.io)** (`coollabsio/coolify`) [![GitHub stars](https://img.shields.io/github/stars/coollabsio/coolify?style=social&color=white)](https://github.com/coollabsio/coolify/stargazers)  
+   An open-source, self-hosted Heroku / Netlify / Vercel alternative. Manages Docker containers, applications, databases, and Git push-to-deploy workflows on any Linux server.
 
-## Open-Source GitHub Projects
+2. **[Traefik](https://traefik.io)** (`traefik/traefik`) [![GitHub stars](https://img.shields.io/github/stars/traefik/traefik?style=social&color=white)](https://github.com/traefik/traefik/stargazers)  
+   The leading cloud-native HTTP reverse proxy and load balancer that automatically discovers Docker container labels and provisions Let's Encrypt SSL/TLS certificates on the fly.
 
+3. **[Dive](https://github.com/wagoodman/dive)** (`wagoodman/dive`) [![GitHub stars](https://img.shields.io/github/stars/wagoodman/dive?style=social&color=white)](https://github.com/wagoodman/dive/stargazers)  
+   A powerful terminal utility for exploring Docker image layers, inspecting filesystem diffs per layer, and detecting wasted image space to optimize build artifacts.
 
+4. **[Lazydocker](https://github.com/jesseduffield/lazydocker)** (`jesseduffield/lazydocker`) [![GitHub stars](https://img.shields.io/github/stars/jesseduffield/lazydocker?style=social&color=white)](https://github.com/jesseduffield/lazydocker/stargazers)  
+   A blazing-fast, keyboard-driven terminal UI (TUI) written in Go for inspecting Docker containers, Docker Compose stacks, streaming logs, resource metrics, and volumes.
 
-- **[crafter-station/muelle](https://github.com)**  
+5. **[Trivy](https://trivy.dev)** (`aquasecurity/trivy`) [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+   The comprehensive, versatile open-source security scanner for container images, filesystems, Git repositories, Kubernetes configurations, and software bill of materials (SBOM).
 
-  Open-source modern Docker and container management utility engineered for streamlined local/remote container workflows, inspection, and developer productivity.
+6. **[Portainer Community Edition](https://portainer.io)** (`portainer/portainer`) [![GitHub stars](https://img.shields.io/github/stars/portainer/portainer?style=social&color=white)](https://github.com/portainer/portainer/stargazers)  
+   The definitive open-source web-based management UI for Docker standalone engines, Docker Swarm clusters, Podman, and Kubernetes environments.
 
+7. **[Podman](https://podman.io)** (`containers/podman`) [![GitHub stars](https://img.shields.io/github/stars/containers/podman?style=social&color=white)](https://github.com/containers/podman/stargazers)  
+   A daemonless, rootless open-source container engine for developing, managing, and running OCI containers and pods with a 100% Docker-compatible CLI.
 
+8. **[Colima](https://github.com/abiosoft/colima)** (`abiosoft/colima`) [![GitHub stars](https://img.shields.io/github/stars/abiosoft/colima?style=social&color=white)](https://github.com/abiosoft/colima/stargazers)  
+   Container runtimes on macOS (Apple Silicon & Intel) and Linux with minimal setup, providing Docker CLI compatibility, Containerd, and Kubernetes out of the box.
 
-- **[Portainer Community Edition (`portainer/portainer`)](https://github.com)**  
+9. **[Harbor](https://goharbor.io)** (`goharbor/harbor`) [![GitHub stars](https://img.shields.io/github/stars/goharbor/harbor?style=social&color=white)](https://github.com/goharbor/harbor/stargazers)  
+   An enterprise-class CNCF-graduated open-source container image registry that secures artifacts with policy-based role access, vulnerability scanning, and cryptographic signing.
 
-  Flagship self-hosted open-source web UI for managing Docker standalone hosts, Docker Swarm clusters, Podman, and Kubernetes environments with ease.
+10. **[Beszel](https://beszel.dev)** (`henrygd/beszel`) [![GitHub stars](https://img.shields.io/github/stars/henrygd/beszel?style=social&color=white)](https://github.com/henrygd/beszel/stargazers)  
+    A lightweight, elegant server and Docker container monitoring hub with automatic alert thresholds, historical graphs, and low resource overhead.
 
+11. **[Dockge](https://dockge.kuma.pet)** (`louislam/dockge`) [![GitHub stars](https://img.shields.io/github/stars/louislam/dockge?style=social&color=white)](https://github.com/louislam/dockge/stargazers)  
+    A fancy, reactive self-hosted Docker Compose stack manager created by the author of Uptime Kuma, featuring visual YAML editing, interactive web terminals, and live progress logs.
 
+12. **[Watchtower](https://containrrr.dev/watchtower/)** (`containrrr/watchtower`) [![GitHub stars](https://img.shields.io/github/stars/containrrr/watchtower?style=social&color=white)](https://github.com/containrrr/watchtower/stargazers)  
+    An automated daemon that monitors running Docker containers, queries image registries for updated tags, gracefully restarts containers, and cleans up superseded images.
 
-- **[Dockge (`louislam/dockge`)](https://github.com)**  
+13. **[Lima](https://github.com/lima-vm/lima)** (`lima-vm/lima`) [![GitHub stars](https://img.shields.io/github/stars/lima-vm/lima?style=social&color=white)](https://github.com/lima-vm/lima/stargazers)  
+    Linux virtual machines on macOS with automatic file-sharing, port-forwarding, and containerd integration, functioning as the open-source engine powering Colima and Rancher Desktop.
 
-  Fancy, reactive self-hosted open-source Docker Compose stack manager (from the creator of Uptime Kuma) featuring interactive YAML editing, live logs, and terminal access.
+14. **[cAdvisor](https://github.com/google/cadvisor)** (`google/cadvisor`) [![GitHub stars](https://img.shields.io/github/stars/google/cadvisor?style=social&color=white)](https://github.com/google/cadvisor/stargazers)  
+    Google's open-source daemon that collects, aggregates, processes, and exports real-time resource usage and performance metrics for active containers.
 
+15. **[Dozzle](https://dozzle.dev)** (`amir20/dozzle`) [![GitHub stars](https://img.shields.io/github/stars/amir20/dozzle?style=social&color=white)](https://github.com/amir20/dozzle/stargazers)  
+    A real-time, lightweight web-based log viewer for Docker containers with multi-host clustering, regex search, memory analytics, and split-screen viewing.
 
+16. **[Komodo](https://komodo.ro)** (`moghtech/komodo`) [![GitHub stars](https://img.shields.io/github/stars/moghtech/komodo?style=social&color=white)](https://github.com/moghtech/komodo/stargazers)  
+    A high-performance build, deployment, and container orchestrator written in Rust for managing multi-server Docker environments, Git webhooks, and fleet monitoring.
 
-- **[Komodo (`moghtech/komodo`)](https://github.com)**  
+17. **[Skopeo](https://github.com/containers/skopeo)** (`containers/skopeo`) [![GitHub stars](https://img.shields.io/github/stars/containers/skopeo?style=social&color=white)](https://github.com/containers/skopeo/stargazers)  
+    A command-line utility that performs operations on container images and image registries, allowing inspection, copying, and signing without needing root or local daemon pulls.
 
-  High-performance open-source build and deployment system written in Rust for managing Docker containers, Compose stacks, Git-synced builds, and multi-server alerts.
+18. **[CNCF Distribution](https://github.com/distribution/distribution)** (`distribution/distribution`) [![GitHub stars](https://img.shields.io/github/stars/distribution/distribution?style=social&color=white)](https://github.com/distribution/distribution/stargazers)  
+    The foundational open-source OCI and Docker registry implementation powering Docker Hub and self-hosted private container artifact distribution.
 
+19. **[Podman Desktop](https://podman-desktop.io)** (`podman-desktop/podman-desktop`) [![GitHub stars](https://img.shields.io/github/stars/podman-desktop/podman-desktop?style=social&color=white)](https://github.com/podman-desktop/podman-desktop/stargazers)  
+    A desktop GUI for macOS, Windows, and Linux to build, run, and manage containers, pods, Compose stacks, and local Kubernetes clusters without commercial licensing restrictions.
 
+20. **[Diun](https://crazymax.dev/diun/)** (`crazy-max/diun`) [![GitHub stars](https://img.shields.io/github/stars/crazy-max/diun?style=social&color=white)](https://github.com/crazy-max/diun/stargazers)  
+    *Docker Image Update Notifier* — a CLI tool that periodically analyzes image manifests in registries and sends rich notifications (Slack, Discord, Telegram, Webhooks) when new builds land.
 
-- **[Lazydocker (`jesseduffield/lazydocker`)](https://github.com)**  
+21. **[Caddy Docker Proxy](https://github.com/lucaslorentz/caddy-docker-proxy)** (`lucaslorentz/caddy-docker-proxy`) [![GitHub stars](https://img.shields.io/github/stars/lucaslorentz/caddy-docker-proxy?style=social&color=white)](https://github.com/lucaslorentz/caddy-docker-proxy/stargazers)  
+    Automated reverse proxy plugin for Caddy that dynamically generates server configurations and provisions Let's Encrypt certificates directly from container labels.
 
-  Blazing-fast open-source terminal UI (TUI) written in Go for inspecting Docker and Docker Compose containers, logs, metrics, layers, and volumes with single-key shortcuts.
+22. **[Zot](https://zotregistry.dev)** (`project-zot/zot`) [![GitHub stars](https://img.shields.io/github/stars/project-zot/zot?style=social&color=white)](https://github.com/project-zot/zot/stargazers)  
+    A production-ready, vendor-neutral OCI image registry specification conformant engine written in Go with embedded CVE scanning, image deduplication, and zero external DB dependencies.
 
+23. **[Muelle](https://github.com/crafter-station/muelle)** (`crafter-station/muelle`) [![GitHub stars](https://img.shields.io/github/stars/crafter-station/muelle?style=social&color=white)](https://github.com/crafter-station/muelle/stargazers)  
+    A modern, streamlined Docker and container management utility engineered for developer efficiency, remote container inspection, and microservice workflows.
 
+24. **[Yacht](https://github.com/SelfhostedPro/Yacht)** (`SelfhostedPro/Yacht`) [![GitHub stars](https://img.shields.io/github/stars/SelfhostedPro/Yacht?style=social&color=white)](https://github.com/SelfhostedPro/Yacht/stargazers)  
+    A container management web interface built with Vue.js focusing on simplicity, one-click app templates, volume organization, and server management.
 
-- **[Podman (`containers/podman`) & Podman Desktop (`podman-desktop/podman-desktop`)](https://github.com)**  
+---
 
-  Daemonless, rootless open-source OCI container engine and cross-platform GUI drop-in compatible with Docker CLI commands and Kubernetes YAML pods.
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help expand this ecosystem directory:
 
+1. 🍴 Fork the repository.
+2. 🌿 Create a feature branch (`git checkout -b feature/add-new-tool`).
+3. 📝 Add your entry under the appropriate section in `README.md` (keep alphabetical or sorted order).
+4. 🔗 Include the project name, official URL, GitHub stars badge (`style=social&color=white`), and an objective 1–2 sentence description.
+5. 🚀 Submit a Pull Request with a concise explanation.
 
-- **[Harbor (`goharbor/harbor`)](https://github.com)**  
+---
 
-  Enterprise-grade open-source trusted cloud-native container registry storing, signing, and scanning OCI images with built-in Trivy vulnerability analysis and RBAC.
+## 💖 Support & Share
 
+If you find this curated ecosystem guide valuable for your DevOps, cloud engineering, or homelab workflows:
 
+* ⭐ **Star this repository** on GitHub to support visibility!
+* 🍴 **Fork & Share** with your team or developer network on LinkedIn, Reddit, and Twitter/X.
+* ☕ **Sponsor & Buy me a coffee:** If you'd like to back ongoing open-source maintenance, please support via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007)!
 
-- **[Dive (`wagoodman/dive`)](https://github.com)**  
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
 
-  Essential open-source CLI tool for exploring Docker image layers, inspecting filesystem diffs per layer, and uncovering wasted space to shrink container image sizes.
+---
 
+## 📊 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Container-Management-Docker-Utilities&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Container-Management-Docker-Utilities&type=date&legend=top-left)
 
-- **[Watchtower (`containrrr/watchtower`) & Diun (`crazy-max/diun`)](https://github.com)**  
+---
 
-  Popular open-source utilities for automating running Docker container updates (`Watchtower`) or sending instant webhook/Discord/Slack alerts when new image tags are pushed (`Diun`).
+## ⚠️ Disclaimer
 
-
-
-- **[Yacht (`SelfhostedPro/Yacht`)](https://github.com)**  
-
-  Open-source web interface for managing Docker containers with one-click application templates, volume management, and lightweight resource monitoring.
-
-
-
-- **[Colima (`abiosoft/colima`) & Lima (`lima-vm/lima`)](https://github.com)**  
-
-  Minimalist, open-source container runtimes for macOS (Apple Silicon & Intel) and Linux providing fast Docker, Containerd, and Kubernetes environments with zero licensing fees.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Dozzle (`amir20/dozzle`)](https://github.com)** for a lightweight, real-time web-based Docker log viewer with multi-host support, regex filtering, and zero disk storage overhead.
-
-- **[cAdvisor (`google/cadvisor`)](https://github.com)** and **[Beszel (`henrygd/beszel`)](https://github.com)** for open-source per-container CPU, memory, network, and disk I/O telemetry dashboards.
-
-- **[Traefik (`traefik/traefik`)](https://github.com)** and **[Caddy Docker Proxy (`lucaslorentz/caddy-docker-proxy`)](https://github.com)** for automatic HTTPS reverse proxying driven directly by Docker container labels.
-
-- **[Trivy (`aquasecurity/trivy`)](https://github.com)** and **[Skopeo (`containers/skopeo`)](https://github.com)** for open-source container image CVE scanning and inspecting/copying images across registries without pulling locally.
-
-- **[CNCF Distribution (`distribution/distribution`)](https://github.com)** and **[Zot (`project-zot/zot`)](https://github.com)** for lightweight, vendor-neutral open-source OCI container registries.
-
-
-
-**Frameworks for building custom systems**: Combine **Dockge** or **Komodo** for Git-backed Docker Compose management, **Lazydocker + Dozzle** for instant CLI and browser log debugging, **Harbor + Trivy** for private scanned image registries, and **Colima** for open-source macOS container workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Mounting `/var/run/docker.sock` into web management UIs (`Portainer`, `Dockge`, `Watchtower`) grants root-equivalent control over the host machine; always protect container dashboards behind HTTPS/TLS, strong authentication, and VPN/Zero-Trust networks.
-
-Use code with caution.
-
-• Avoid blind automatic container updates (Watchtower) on stateful databases or breaking major-version tags (:latest) in production without automated backups and health checks.
-
-Made for DevOps engineers, sysadmins, homelab self-hosters, cloud-native developers, and open-source contributors.
-
-Let's make container management and Docker utilities more open, lightweight, and transparent.
+* This is an independent, community-curated directory. Brand names, logos, and trademarks belong to their respective copyright holders.
+* **Security Notice:** Granting web interfaces or daemons access to `/var/run/docker.sock` provides root-equivalent authority over the underlying host. Always protect management dashboards behind TLS, multi-factor authentication, and private network overlays (WireGuard/Tailscale).
+* **Automated Updates Notice:** Use automated updater daemons (like Watchtower) with discretion on mission-critical stateful databases or non-pinned container tags (`:latest`) in production without reliable rollback snapshots.
